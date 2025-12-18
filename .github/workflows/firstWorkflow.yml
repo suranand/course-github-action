@@ -19,7 +19,7 @@ jobs:
         run: sw_vers
   dependant-job:
     runs-on: windows-latest
-    needs: run-shell-commands
+    needs: run-shell-commandsj
     steps:
       - name: echo a string
         run: Write-Output "Windows String"
